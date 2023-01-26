@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    }
+.col {
+    flex: 1;
+}    
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+div.row div {
+    background-color: skyblue;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
